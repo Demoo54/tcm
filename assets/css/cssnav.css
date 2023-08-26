@@ -19,6 +19,7 @@ header{
 main{
     width: 80%;
     height: auto;
+    padding-bottom: 28px;
 }
 h1{
     color: aliceblue ;
@@ -79,6 +80,25 @@ div#redes a:hover{
     text-align: center;
     width: 80%;
 }
+.divss{
+    width: 100%;
+    
+    display: flex;
+}
+.texto{
+    width: 50%;
+}
+.img{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.imgsize{
+    height: 500px;
+    border-radius: 20px;
+}
 @media only screen and (max-width:600px){
     h1{
         font-size: 50px;
@@ -87,7 +107,12 @@ div#redes a:hover{
         padding-bottom: 20px;
         padding-top: 35px;
     }
-    
+    .texto{
+        width: 100%;
+    }
+    .img{
+        display: none;
+    }
     
 
 }
