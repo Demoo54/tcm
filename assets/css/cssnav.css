@@ -24,12 +24,12 @@ main{
 h1{
     color: aliceblue ;
     text-align: center;
-    font-size: 70px;
+    font-size: 4.37rem;
     font-family: metal mania;
 }
 h2{
     color: aliceblue ;
-    font-size: 30px ;
+    font-size: 1.87rem ;
     font-family: metal mania;
     margin-top: 20px;
 }  
@@ -37,12 +37,12 @@ p{
     color: aliceblue;
 }
 p#footer{
-    font-size: 20px;
+    font-size: 1.25rem;
     color: white;
     text-align: center;
 }
 a{
-     font-size: 20px;
+     font-size: 1.25rem;
      text-decoration: none;
      color: rgb(119, 116, 116);
      text-align: center;
@@ -76,7 +76,7 @@ div#redes a:hover{
 }
 #footetao{
     color: rgb(158, 160, 160);
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: center;
     width: 80%;
 }
@@ -101,7 +101,7 @@ div#redes a:hover{
 }
 @media only screen and (max-width:600px){
     h1{
-        font-size: 50px;
+        font-size: 3.12rem;
     }
     header{
         padding-bottom: 20px;
