@@ -2,7 +2,7 @@
 
 
 *{
-    margin: 0 auto;
+    margin:0 auto;
 }
 
 body{
@@ -17,23 +17,21 @@ header{
     text-align: center;
     padding-top: 50px;
     padding-bottom: 40px;
+    
 }
-header div{
-    display: flex;
-}
-header p{
+
+header div p{
     padding-left: 20px;
     font-size: 5.62rem;
     font-family: metal mania;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     
 }
 nav{
     width: 80%;
     height: 90px;
-    display: flex;
-    
 }
+
 #div1{
     width: 100%;
     height: 50px;
@@ -118,6 +116,7 @@ a.filmea:hover, a.animea:hover, a.jogosa:hover, a.seriea:hover{
     color: rgba(125, 113, 113, 0.724);
 }
 footer{
+    width: 80%;
     display: flex;
     align-items: center;
     flex-direction: column ;
@@ -151,8 +150,9 @@ div#redes a:hover{
         width: 100%;
         padding-top: 35px;
     }
-    header p{
-        font-size: 3.43rem;
+
+    header div p{
+        font-size: 3.56rem;
     }
     nav{
         width: 100%;
