@@ -21,7 +21,8 @@ header{
 }
 
 header div p{
-    padding-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     font-size: 5.62rem;
     font-family: metal mania;
     color: rgb(255, 255, 255);
@@ -84,8 +85,6 @@ p#footer{
 img{
     display: flex;
     align-items: center;
-    margin-left: 10px;
-    padding-right: 15px;
 }
 img.gif{
     border-radius: 35px;
