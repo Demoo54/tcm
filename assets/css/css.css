@@ -8,7 +8,7 @@
 body{
     background-color: black;
 }
-header{
+header, #sobreheader{
     width: 80%;
     height: 150px;
     display: flex;
@@ -77,6 +77,13 @@ p#apresentacao{
     text-align: center; 
     font-size: 1.25rem;
 }
+p#apresentacao1{
+    color: rgb(158, 160, 160);
+    text-align: center; 
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
 p#footer{
     font-size: 1.25rem;
     color: white;
@@ -88,6 +95,12 @@ img{
 }
 img.gif{
     border-radius: 35px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+img.eu{
+    border-radius: 220px;
     display: flex;
     align-items: center;
     margin-left: auto;
@@ -143,6 +156,16 @@ div#redes a:hover{
     text-align: center;
     width: 80%;
 }
+#nos{
+ font-size: 21px;
+ color: rgb(158, 160, 160);
+ padding-top: 3px;
+}
+#sobre{
+    font-size: 4.80rem;
+    font-family: metal mania;
+    color: rgb(255, 255, 255);
+}
 
 @media only screen and (max-width:600px){
     header{
@@ -168,5 +191,12 @@ div#redes a:hover{
     }
     nav a{
         font-size: 1.18rem ;
+    }
+    #sobre{
+        font-size: 3rem;
+    }
+    header, #sobreheader{
+        margin-top: 5px;
+        
     }
 }
