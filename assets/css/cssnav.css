@@ -5,6 +5,8 @@
 }
 body{
     background-color:black;
+    opacity: 0;
+    animation: efeito 2s ease forwards;
 }
 
 header, #sobreheader{
@@ -25,12 +27,12 @@ h1{
     color: aliceblue ;
     text-align: center;
     font-size: 4.37rem;
-    font-family: metal mania;
+    font-family: 'metal mania';
 }
 h2{
     color: aliceblue ;
     font-size: 1.87rem ;
-    font-family: metal mania;
+    font-family: 'metal mania';
     margin-top: 20px;
 }  
 p{
@@ -113,7 +115,7 @@ p#apresentacao1{
 }
 #sobre{
     font-size: 4.80rem;
-    font-family: metal mania;
+    font-family: 'metal mania';
     color: rgb(255, 255, 255);
 }
 img.eu{
@@ -140,4 +142,10 @@ img.eu{
     }
     
 
+}
+
+@keyframes efeito {
+    100%{
+        opacity: 1;
+    }
 }

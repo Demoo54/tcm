@@ -3,12 +3,14 @@
 
 *{
     margin:0 auto;
-    padding:0 auto;
     box-sizing: border-box;
 }
 
 body{
     background-color: black;
+    opacity: 0;
+    transform: translateY(15px);
+    animation: efeito 2s ease forwards;
 }
 header, #sobreheader{
     width: 80%;
@@ -26,7 +28,7 @@ header div p{
     margin-left: 10px;
     margin-right: 10px;
     font-size: 5.62rem;
-    font-family: metal mania;
+    font-family: 'metal mania';
     color: rgb(255, 255, 255);
     
 }
@@ -74,7 +76,7 @@ h1{
     color: rgb(158, 160, 160);
     text-align: left;
     font-size: 2.20rem;
-    font-family: metal mania;
+    font-family: 'metal mania';
 }
 p.apresentacao{
     padding-top: 25px;
@@ -174,7 +176,7 @@ div#redes a:hover{
 }
 #sobre{
     font-size: 4.80rem;
-    font-family: metal mania;
+    font-family: 'metal mania';
     color: rgb(255, 255, 255);
 }
 
@@ -217,4 +219,10 @@ div#redes a:hover{
         height: 300px;
     }
     
+}
+@keyframes efeito {
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
