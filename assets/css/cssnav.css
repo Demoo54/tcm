@@ -40,7 +40,7 @@ p{
 }
 p#footer{
     font-size: 1.25rem;
-    color: white;
+    color: rgb(119, 116, 116);
     text-align: center;
 }
 a{
@@ -64,6 +64,7 @@ div#redes{
     display: flex;
     align-items: center;
     flex-direction: row;
+    margin-bottom: 8px;
     
 }
 div#redes div{

@@ -17,7 +17,8 @@ header, #sobreheader{
     height: 150px;
     display: flex;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 40px;
@@ -35,8 +36,8 @@ header div p{
 nav{
     width: 80%;
     height: 60px;
-    padding-top: 35px;
-    padding-bottom: 50px;
+    margin-top: 40px;
+    margin-bottom: 15px;
 
 }
 
@@ -58,6 +59,7 @@ a{
     font-size: 1.87rem;
     text-decoration: none ;
     color: rgb(119, 116, 116);
+    transition: 0.2s;
     
 }
 a:hover{
@@ -65,7 +67,8 @@ a:hover{
     opacity: 0.5;
 }
 main{
-    padding-top: 50px;
+    padding-top: 45px;
+    margin-bottom: 50px;
     height: auto;
     width: 65%;
 }
@@ -93,7 +96,7 @@ p.apresentacao1{
 }
 p#footer{
     font-size: 1.25rem;
-    color: white;
+    color: rgb(158, 160, 160);
     text-align: center;
 }
 img{
@@ -124,7 +127,7 @@ div p{
     color: aliceblue;
 }
 main div div.filme, main div div.anime, main div div.jogos, main div div.serie{
-    margin-bottom: 20px;
+    margin-bottom: 35px;
     text-align: center;
 }
 
