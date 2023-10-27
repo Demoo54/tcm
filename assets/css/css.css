@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
 
 
+
 *{
     margin:0 auto;
     box-sizing: border-box;
@@ -30,7 +31,7 @@ header div p{
     margin-right: 10px;
     font-size: 5.62rem;
     font-family: 'metal mania';
-    color: rgb(255, 255, 255);
+    color: rgb(216, 216, 216);
     
 }
 nav{
@@ -207,6 +208,7 @@ div#redes a:hover{
     }
     nav a{
         font-size: 1.18rem ;
+        
     }
     #sobre{
         font-size: 3rem;
