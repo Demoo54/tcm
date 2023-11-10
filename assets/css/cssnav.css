@@ -37,6 +37,7 @@ h2{
 }  
 p{
     color: aliceblue;
+    text-align: justify;
 }
 p#footer{
     font-size: 1.25rem;
